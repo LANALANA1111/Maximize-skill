@@ -1,0 +1,104 @@
+@media (width >768px){
+    .responsive{
+        display: flex;
+    }
+
+    .title >h1{
+        padding:50px 26px;
+        
+    }
+
+    .title >p{
+        width: 424px;
+        padding-left: 30px;
+    }
+
+    .srcl_img{
+        display: none;
+    }
+
+    .rspnsv_img{
+        display: block;
+        width: 250px;
+        position: absolute;
+        left: 0;
+    }
+
+    .rspnsv_img2{
+        width: 400px;
+        display: block;
+        position: relative;
+        bottom: 104px;
+    }
+
+    .bigimg >img{
+        position: absolute;
+        right: 0;
+        display: block;
+        width: 333px;
+    }
+
+    .check_out{
+        width: 339px;
+        height: 259px;
+        margin-top: 0;
+    }
+
+    .rspnsv_check_out{
+
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 100px;
+    }
+
+    .photography{
+        margin-left: 35px;
+    }
+
+    .Business{
+        margin-left: 35px;
+    }
+
+    .animation{
+        margin-left: 70px;
+    }
+
+    .photography >button{
+        width: 104px;
+    }
+
+    .girlimg{
+        display: none;
+    }
+
+}
+
+@media(width >1024px){
+    .rspnsv_img2{
+        left: 221%;
+    }
+
+    .bigimg >img{
+        width: 500px;
+        position: absolute;
+        display: block;
+        right: 0;
+    }
+
+    .responsive{
+        position: relative;
+        margin-left: 105px;
+    }
+
+    .rspnsv_check_out{
+        margin-top: 100px;
+    }
+
+    .animation{
+        margin-left: 67px;
+    }
+
+    .photography{
+        margin-left: 30px;
+    }
+}

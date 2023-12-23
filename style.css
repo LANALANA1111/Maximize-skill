@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&family=Plus+Jakarta+Sans:wght@400;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding-top: 15px;
+}
+
+.header >button{
+    width: 167px;
+    height: 56px;
+    border-radius: 28px;
+    background: var(--13183F, #13183F);
+    border: none;
+    color: var(--FFFFFF, #FFF);
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.title >h1{
+    width: 430px;
+    color: var(--13183F, #13183F);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Plus Jakarta Sans;
+    font-size: 45px;
+    font-weight: 800;
+    padding: 32px 16px;
+}
+
+.title >p{
+    width: 372px;
+    color: var(--83869A, #83869A);
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    padding-left:  16px;
+}
+
+.scnd_btn{
+    padding: 24px 16px;
+}
+
+.scnd_btn >button{
+    width: 167px;
+    height: 56px;
+    border-radius: 31.5px;
+    border: none;
+    background: var(--Gradient-1, linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%));
+    color: var(--FFFFFF, #FFF);
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    
+}
+
+.check_out{
+    width: 343px;
+    height: 120px;
+    margin-top: 62px;
+    margin-left: 19px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    background: var(--Gradient-1, linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%));
+    width: 393px;
+    text-align: center;
+    color: var(--FFFFFF, #FFF);
+    font-family: Plus Jakarta Sans;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 32px;
+}
+
+.rspnsv_check_out{
+    background: linear-gradient(180deg, #FFF 0%, #F0F1FF 100%);
+}
+ 
+.girlimg{
+    display: grid;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.bigimg >img{
+    display: none;
+    width: 500px;
+}
+
+.animation{
+    width: 363px;
+    height: 259px;
+    background-color: #FFF;
+    margin-left: 30px;
+    margin-top: 40px;
+    padding-left: 50px;
+}
+
+.animation >h1{
+    color: var(--13183F, #13183F);
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    font-weight: 800;
+    padding-top: 10px;
+}
+
+.animation >p{
+    width: 286px;
+    color: var(--83869A, #83869A);
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    padding-top: 10px;
+}
+
+.animation >button{
+    color: var(--F74780, #F74780);
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    border: none;
+    background-color: #FFF;
+    padding-top: 15px;
+}
+
+.design{
+    width: 363px;
+    height: 259px;
+    background-color: #FFF;
+    margin-left: 30px;
+    margin-top: 40px;
+    padding-left: 50px;
+}
+
+.design >img{
+    padding-top: 20px;
+}
+
+.design >h1{
+    color: var(--13183F, #13183F);
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    font-weight: 800;
+    padding-top: 10px;
+}
+
+.design >p{
+    width: 286px;
+    color: var(--83869A, #83869A);
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    padding-top: 10px;
+}
+
+.design >button{
+    color: var(--F74780, #F74780);
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    border: none;
+    background-color: #FFF;
+    padding-top: 15px;
+}
+
+.photography{
+    width: 363px;
+    height: 259px;
+    background-color: #FFF;
+    margin-left: 30px;
+    margin-top: 40px;
+    padding-left: 50px;
+}
+
+.photography >img{
+    padding-top: 20px;
+}
+
+.photography >h1{
+    color: var(--13183F, #13183F);
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    font-weight: 800;
+    padding-top: 10px;
+}
+
+.photography >p{
+    width: 286px;
+    color: var(--83869A, #83869A);
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    padding-top: 10px;
+}
+
+.photography >button{
+    color: var(--F74780, #F74780);
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    border: none;
+    background-color: #FFF;
+    padding-top: 15px;
+}
+
+.Crypto{
+    width: 363px;
+    height: 259px;
+    background-color: #FFF;
+    margin-left: 30px;
+    margin-top: 40px;
+    padding-left: 50px;
+}
+
+.Crypto >img{
+    padding-top: 20px;
+}
+
+.Crypto >h1{
+    color: var(--13183F, #13183F);
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    font-weight: 800;
+    padding-top: 10px;
+}
+
+.Crypto >p{
+    width: 286px;
+    color: var(--83869A, #83869A);
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    padding-top: 10px;
+}
+
+.Crypto >button{
+    color: var(--F74780, #F74780);
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    border: none;
+    background-color: #FFF;
+    padding-top: 15px;
+}
+
+.Business{
+    width: 363px;
+    height: 259px;
+    background-color: #FFF;
+    margin-left: 30px;
+    margin-top: 40px;
+    padding-left: 50px;
+}
+
+.Business >img{
+    padding-top: 20px;
+}
+
+.Business >h1{
+    color: var(--13183F, #13183F);
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    font-weight: 800;
+    padding-top: 10px;
+}
+
+.Business >p{
+    width: 286px;
+    color: var(--83869A, #83869A);
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    padding-top: 10px;
+}
+
+.Business >button{
+    color: var(--F74780, #F74780);
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    border: none;
+    background-color: #FFF;
+    padding-top: 15px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    height: 120px;
+    background: var(--13183F, #13183F);
+    /* margin-top: 70px; */
+}
+
+.footer >button{
+    width: 140px;
+    height: 48px;
+    border-radius: 28px;
+    border: none;
+    background: var(--Gradient-2, linear-gradient(180deg, #4851FF 0%, #F02AA6 100%));
+    color: var(--FFFFFF, #FFF);
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+}
